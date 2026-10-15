@@ -1,0 +1,36 @@
+form{
+	width:500px;
+	margin:auto;
+	border: 10px solid black;
+	padding:30px;
+	background-color:powderblue;
+	border-radius:40px;
+}
+label{font-weight:bold;
+color:#333;}
+input,select,textarea{
+	margin-left:30px;
+	padding:10px;
+	border:10px solid gray;
+	border-radius:10px;
+}
+input[type="submit"]{
+	background-color:red;
+	color:yellow;
+	border:none;
+	padding:12px 20px;
+	cursor:pointer;
+	
+}
+input[type="reset"]{
+	background-color:green;
+	color:blue;
+	border:none;
+	padding:12px 20px;
+	cursor:pointer;
+	
+}
+input[type="submit"]:hover{
+	background-color:white;
+}
+input[type="reset"]:hover{background-color:darkgreen;}
