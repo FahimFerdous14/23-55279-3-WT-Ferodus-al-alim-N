@@ -1,0 +1,22 @@
+body{
+    font-family: Arial;
+    margin:20px;
+}
+
+h1{
+    color:navy;
+}
+
+input{
+    padding:5px;
+}
+
+button{
+    padding:8px 15px;
+}
+
+#output{
+    margin-top:20px;
+    border:1px solid gray;
+    padding:15px;
+}
